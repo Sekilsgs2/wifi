@@ -702,4 +702,5 @@ void mgos_wifi_dev_init(void) {
 }
 
 void mgos_wifi_dev_deinit(void) {
+  sl_Stop(200);
 }
